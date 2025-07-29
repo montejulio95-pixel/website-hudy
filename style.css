@@ -29,3 +29,16 @@ button {
   cursor: pointer;
 }
 button:hover { background: #005b96; }
+
+/* Tambahkan di bawah kode sebelumnya */
+nav {
+  display: flex;
+  gap: 20px;
+  background: #0077b6;
+  padding: 12px 40px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
