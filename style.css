@@ -1,0 +1,31 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+h1, h2 { color: #0077b6; }
+img { max-width: 100%; border-radius: 8px; }
+a { color: #d90429; font-weight: bold; }
+table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
+th, td { padding: 10px; border: 1px solid #ccc; }
+form label { display: block; margin-bottom: 10px; }
+form input, form textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background: #0077b6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover { background: #005b96; }
